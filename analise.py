@@ -1,5 +1,6 @@
 import pandas as pd
 
-tabela = pd.real_csv("all_seasons.csv")
+tabela = pd.read_csv("all_seasons.csv")
 
 print(tabela)
+
